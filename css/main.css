@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("fonts/Ubuntu-L.ttf");
+}
+
 /* background setup */
 .background {
   background-repeat: no-repeat;
@@ -165,8 +170,7 @@ section {
 }
 
 #welcome_headline {
-  color: black;
-  font-style: italic;
+  font-weight: bolder;
   text-align: center;
   margin: 0 auto;
   margin-top: 30px;
@@ -247,61 +251,37 @@ section {
   fill: black;
 }
 
+.title_fishing {
+  color: grey-brown;
+  text-align: center;
+  font-size: 32px;
+}
+
 .fishing_row1 {
   margin-top: 50px;
+}
+
+.fishing_row2 {
+  margin-bottom: 20px;
+}
+
+.fishing_row3 {
   margin-bottom: 50px;
 }
 
-.fishing_row3, .fishing_row5, .fishing_row7 {
-  margin-bottom: 80px;
-}
-
-.fishing_row3 .col-md-3, .fishing_row5 .col-md-3, .fishing_row7 .col-md-3 {
-  text-align: center;
-}
-
-.fishing_row3 .col-md-3 img, .fishing_row5 .col-md-3 img, .fishing_row7 .col-md-3 img {
-  margin-right: 0;
-  height: 200px;
-  width: 200px;
-}
-
-.fish_name {
-  text-align: center;
-  font-size: 30px;
-}
-
-#title_hunting {
+.title_hunting {
   color: grey-brown;
   text-align: center;
-  font-size: 50px;
+  font-size: 32px;
 }
 
 .hunting_row1 {
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
-.hunting_row1, .hunting_row2 {
+.hunting_row2 {
   margin-bottom: 50px;
-}
-
-.hunting_row4, .hunting_row6, .hunting_row8 {
-  margin-bottom: 80px;
-}
-
-.hunting_row4 .col-md-3, .hunting_row6 .col-md-3, .hunting_row8 .col-md-3 {
-  text-align: center;
-}
-
-.hunting_row4 .col-md-3 img, .hunting_row6 .col-md-3 img, .hunting_row8 .col-md-3 img {
-  margin-right: 0;
-  height: 200px;
-  width: 200px;
-}
-
-.wild_name {
-  text-align: center;
-  font-size: 30px;
 }
 
 .house_row1 {
@@ -326,6 +306,21 @@ section {
 .house_name {
   text-align: center;
   font-size: 30px;
+}
+
+.title-places {
+  color: grey-brown;
+  text-align: center;
+  font-size: 32px;
+}
+
+.places_row1 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.places_row2 {
+  margin-bottom: 50px;
 }
 
 .gallery_row1 {
@@ -459,6 +454,7 @@ textarea {
 }
 
 body {
+  font-family: 'Ubuntu Light';
   color: grey !important;
   position: relative;
 }
@@ -467,4 +463,35 @@ body {
   color: white;
   text-align: center;
   font-size: 65px;
+}
+
+.text-container {
+  text-align: justify;
+}
+
+@media (max-width: 992px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
