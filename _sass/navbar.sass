@@ -84,6 +84,14 @@
     width: 21px
     height: 21px
 
+@media(min-width: 810px)
+
+    .nav > li.active > a, .nav > li.active > a:focus
+        background-color: #eeeeee
+
+    .nav > li[class=""] > a:focus
+        background: transparent
+
 
 @media(max-width: 1000px)
 
@@ -103,3 +111,21 @@
     .brand
         display: block
         margin-top: -10px
+
+@media(max-width: 810px)
+
+    .navbar.navbar-fixed-top
+        background: rgba(54, 54, 54, 0.8)
+
+        #top-menu
+            li
+                a
+                    padding: 0
+
+                    span
+                        display: none
+
+            li.active
+                a
+                    border: 0
+                    color: grey
