@@ -7931,6 +7931,21 @@ section {
   color: white;
 }
 
+.title {
+  color: white;
+  text-align: center;
+  font-size: 5em;
+}
+
+@media (max-width: 767px) {
+  .header-text .title {
+    font-size: 3em;
+  }
+  .header-text p {
+    font-size: 1em;
+  }
+}
+
 .line1 {
   height: 30%;
 }
@@ -8120,7 +8135,7 @@ section {
   background: rgba(54, 54, 54, 0.1);
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .contact-info p {
@@ -8227,12 +8242,7 @@ body {
   font-family: 'Ubuntu Light';
   color: grey !important;
   position: relative;
-}
-
-.title {
-  color: white;
-  text-align: center;
-  font-size: 65px;
+  width: 100%;
 }
 
 .text-container {
