@@ -102,4 +102,6 @@ if(!$("html").hasClass("touch")){
     parallaxPosition();
 }
 
-
+$( document ).ready(function() {
+  backgroundResize();
+});

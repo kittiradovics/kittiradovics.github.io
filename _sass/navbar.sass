@@ -49,27 +49,8 @@
         -moz-transition: .7s all ease-out
         transition: .7s all ease-out
 
-    li
-
-        a
-
-            span
-
-                img
-                    height: 18px
-                    color: #b52808
-
-
-#top-menu
-
-    li
-        margin-top: 3px
-
-        &:hover
-            fill: black
-
-        &:hover .icon_fish
-            fill: black
+    li.hidden
+      display: none
 
     li.active
         a
@@ -79,6 +60,20 @@
         a .icon_fish
             fill: black
 
+    li
+        margin-top: 3px
+        &:hover
+            fill: black
+        &:hover .icon_fish
+            fill: black
+
+        a
+
+            span
+
+                img
+                    height: 18px
+                    color: #b52808
 
 .flag
     width: 21px

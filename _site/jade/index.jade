@@ -240,19 +240,9 @@ div(class="gallery fullscreen background parallax" style="background-image:url('
 
     .row.gallery_row1
 
-        .col-xs-12.col-md-10.col-md-offset-1.text-container
-
-          p A galéria képzőművészeti alkotások bemutatására szolgáló fizikai vagy virtuális tér. A galéria a művészeti alkotásokat reprezentatív módon mutatja be időszakos vagy állandó kiállításon önálló vagy csoportos módon. A galéria működhet non-profit módon, ilyenkor működése hasonló egy múzeuméhoz, ha profitorientált, akkor általában a galériás vezeti, aki a művek értékesítéséből tartja fenn vállalkozását. Magyarországon a profitorientált galériák nagyobb számban (elsősorban Budapesten) 1990 után jelentek meg. A galériákat meg kell különböztetnünk a képboltoktól, amelyek rendszeresen nem szerveznek egy művész, művészcsoportosulás vagy koncepció mentén kiállításokat, hanem pusztán csak a műalkotásokat mutatják be eladási szándékkal. Egy galéria általában 10-20 művésszel dolgozik együtt szerződéses alapon.
-
-    .row.gallery_row2
-
-        .col-md-1
-
-        .col-md-10
+        .col-xs-12.col-md-10.col-md-offset-1
 
             iframe(src="//embedsocial.com/facebook_album/album_photos/923638971031176" width="100%" height="800" frameborder="0" scrolling="yes" marginheight="0"  marginwidth="0")
-
-        .col-md-1
 
     #hide_embed
 
@@ -273,13 +263,13 @@ div(class="gallery fullscreen background parallax" style="background-image:url('
 
         .row.contactus_row1
 
-            .col-md-4
+            .col-xs-12.col-md-4
 
                 .contact-info
 
                     p
                         span(class="glyphicon glyphicon-road")
-                        |   6621 Derekegyház Paptelek 80
+                        |   6621 Derekegyház, Paptelek 80.
 
 
                     p
@@ -306,48 +296,48 @@ div(class="gallery fullscreen background parallax" style="background-image:url('
                                     v-3.291c0-2.357,1.12-6.04,6.04-6.04l4.435,0.017v4.939c0,0-2.695,0-3.219,0c-0.524,0-1.269,0.262-1.269,1.386v2.99h4.56L31,25.7z\
                                     ')
 
-                            |   facebook
+                            |   Facebook
 
-            .col-md-8
+            .col-xs-12.col-md-8
 
                 form(action="//formspree.io/caridniss@gmail.com" method="POST")
 
                     .row.letter_head_input
 
-                        .col-md-4
+                        .col-xs-12.col-md-4.form-group
 
                             p
                                 .letter_labels Név:
 
-                            input(type="text" name="name" value="")
+                            input(type="text" name="name" value="" class="form-control")
 
-                        .col-md-4
+                        .col-xs-12.col-md-4.form-group
 
                             p
-                                .letter_labels e-mail:
+                                .letter_labels E-mail:
 
-                            input(type="text" name="mail" value="")
+                            input(type="text" name="mail" value="" class="form-control")
 
-                        .col-md-4
+                        .col-xs-12.col-md-4.form-group
 
                             p
                                 .letter_labels Tárgy:
 
-                            input(type="text" name="subject" value="")
+                            input(type="text" name="subject" value="" class="form-control")
 
                     .row.letter_body
 
-                        .col-md-12
+                        .col-xs-12.col-md-12.form-group
 
                             p
                                 .letter_labels Üzenet:
 
-                            textarea(type="textarea" name="comment" value="comment" size="50" id="textarea")
+                            textarea(type="textarea" name="comment" value="comment" size="50" id="textarea" class="form-control")
 
 
                     .row.letter.submit
 
-                        .col-md-4
+                        .col-xs-12.col-md-4.col-md-offset-4
 
                             input(type="submit" value="Küldés" id="submit_button")
 
@@ -356,10 +346,6 @@ div(class="gallery fullscreen background parallax" style="background-image:url('
 
     .row.foot_row1
 
-        .col-sm-6
+        .col-xs-12.col-md-4.col-md-offset-8
 
-            a(href='http://www.pronovix.com') Pronovix
-
-        .col-sm-6
-
-            p © 2015 Created by Pronovix
+            p © 2016 Created by <a href="pronovix.com")><strong>Pronovix</strong></a>
