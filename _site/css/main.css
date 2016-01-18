@@ -8221,16 +8221,38 @@ textarea {
   color: white;
   background-color: rgba(128, 128, 128, 0.6);
   font-size: 1.2em;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   padding-right: 20px;
   text-align: right;
+}
+
+.foot_row1 .footer-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.foot_row1 .footer-content {
+  margin-bottom: 0;
 }
 
 .foot_row1 a {
   color: white;
   font-style: normal;
+  text-decoration: none;
+}
+
+.foot_row1 a svg {
+  width: 60px;
+  margin-left: 10px;
+  fill: white;
+  vertical-align: middle;
+  transition: all .2s ease;
+}
+
+.foot_row1 a svg:hover {
+  fill: grey;
 }
 
 .foot_row1 a:hover {

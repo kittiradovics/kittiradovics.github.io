@@ -2,15 +2,33 @@
     color: white
     background-color: rgba(128, 128, 128, 0.6)
     font-size: 1.2em
-    padding-top: 20px
+    padding-top: 15px
     padding-left: 20px
-    padding-bottom: 10px
+    padding-bottom: 15px
     padding-right: 20px
     text-align: right
+
+    .footer-container
+        display: inline-block
+        vertical-align: middle
+
+    .footer-content
+        margin-bottom: 0
 
     a
         color: white
         font-style: normal
+        text-decoration: none
+
+        svg
+            width: 60px
+            margin-left: 10px
+            fill: white
+            vertical-align: middle
+            transition: all .2s ease
+
+            &:hover
+                fill: grey
 
     a:hover
         color: grey
