@@ -8017,6 +8017,23 @@ section {
   margin-bottom: 50px;
 }
 
+.welcome_row3 p {
+  margin: 0;
+}
+
+.welcome_row3 p.intro-text {
+  margin-bottom: 10px;
+}
+
+.welcome_row3 p.final-text {
+  margin-top: 10px;
+}
+
+.welcome_row3 p.owner-name {
+  margin-top: 20px;
+  text-align: right;
+}
+
 .welcome_row4 {
   margin-bottom: 50px;
 }
@@ -8074,23 +8091,13 @@ section {
   margin-bottom: 50px;
 }
 
-.house_row3, .house_row5, .house_row7 {
-  margin-bottom: 80px;
+.house_row1 h4.price-title {
+  margin-top: 50px;
 }
 
-.house_row3 .col-md-3, .house_row5 .col-md-3, .house_row7 .col-md-3 {
-  text-align: center;
-}
-
-.house_row3 .col-md-3 img, .house_row5 .col-md-3 img, .house_row7 .col-md-3 img {
-  margin-right: 0;
-  height: 200px;
-  width: 200px;
-}
-
-.house_name {
-  text-align: center;
-  font-size: 30px;
+.house_row1 .glyphicon {
+  margin-right: 5px;
+  font-size: 18px;
 }
 
 .title-places {
@@ -8162,8 +8169,8 @@ section {
 }
 
 .contactus_row1 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 200px;
+  margin-bottom: 200px;
   clear: both;
 }
 
@@ -8215,6 +8222,13 @@ textarea {
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(128, 128, 128, 0.6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(128, 128, 128, 0.6);
+}
+
+@media (max-width: 991px) {
+  .contactus_row1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 
 .foot_row1 {
@@ -8269,4 +8283,5 @@ body {
 
 .text-container {
   text-align: justify;
+  font-size: 15px;
 }

@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   var latlng = new google.maps.LatLng(46.567578, 20.367209); /* latitude and longitude for the center of the map*/
-
+    
   var image = '../../img/logo_sm_40.png';
 
   var myOptions = {
@@ -11,7 +11,7 @@ $(document).ready(function(){
       mapTypeControl: false,      /* disable the Satelite-Roadmap switch */
       panControl: false,          /* disable the pan controller */
       streetViewControl: false,   /* disable the streetView option */
-      zoomControl: false,         /*disable the zoom level buttons, the user will still be able to control the zoom by scrolling
+      zoomControl: false,         /*disable the zoom level buttons, the user will still be able to control the zoom by scrolling  
 
       scaleControl: true,         /* optional: shows the scale of the map */
       scaleControlOptions: {
@@ -19,7 +19,7 @@ $(document).ready(function(){
           position: google.maps.ControlPosition.BOTTOM_LEFT
       }
   };
-
+  
   var map = new google.maps.Map(document.getElementById("map_canvas"),
       myOptions); /* show the map in the element with the id: map_canvas */
 
@@ -47,3 +47,4 @@ $(document).ready(function(){
   });
 
 });
+
